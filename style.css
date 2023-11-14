@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+}
+#first-div{
+
+    width: 100vw;
+    height: 100vh;
+    background-image:url("./abstract-textured-backgound.jpg");
+    background-size:cover;
+    
+
+
+}
+nav{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+    top: 5px;
+    left: 0px;
+    gap: 50px;
+    z-index: 5;
+}
+#logo-holder{
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    padding: 5px 10px;
+    gap: 15px;
+    align-items: center;
+}
+#logo-holder h1{
+    font-size: 40px;
+    font-family: 'League Spartan', sans-serif;
+}
+#logo-holder h1, #options-holder p{
+    color: white;
+}
+#options-holder{
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    padding: 5px 10px;
+    gap: 60px;
+    align-items: center;
+}
+#options-holder p{
+    font-size: 23px;
+    cursor: pointer;
+    border-bottom: 1px solid transparent;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+.hover-down{
+    height: 15px;
+    margin-left: 5px;
+    transition: all 0.5s ease-in-out;
+}
+#options-holder p:hover{
+    color: #FFD700;
+    border-color: #FFD700;
+    transform: translateY(-5px);
+    transition: all 0.5s ease-in-out;
+}
+
+#options-holder p:hover .hover-down{
+    transform: rotate(180deg);
+}
+#logo-holder img{
+    height: 90%;
+}
+#btn-holder{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.btn{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#btn1{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+#btn2{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    /* border: 2px solid #0B86FF;
+    background-color:#0B86FF;
+    color: white; */
+}
+#btn1:hover{
+    border: 2px solid #0B86FF;
+    background-color:#0B86FF;
+}
+#btn2:hover{
+    /* border: 2px solid white;
+    background-color: transparent; */
+    border: 2px solid #0B86FF;
+    background-color:#0B86FF;
+
+}
+video{
+    width: 60%;
+    margin-right: -55px;
+}
+#first-div{
+    /* padding-top: 8vh; */
+    display: flex;
+    align-items: center;
+    padding: 8vh 60px;
+    justify-content: center;
+}
+#big-heading{
+    font-family: sans-serif;
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+}
+#big-heading div{
+    display: inline;
+    background-color: #ffe276;
+    padding: 7px 10px;
+    border-radius: 45px;
+}
+#description{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 25px;
+    color: #B8BDD1CC;
+    margin-top: 15px;
+}
+
+#btn-3{
+    border: 25px solid #0B86FF;
+    background-color:#0B86FF;
+    color: white;
+    font-weight:bold;
+    font-size:22px;
+    width: fit-content;
+    font-family:'League Spartan', sans-serif;
+    text-align: center;
+    flex-grow: 0;
+    border-radius:8px;
+    background-color: #0B86FF;
+    margin:35px;
+    display:flex;
+    cursor: pointer;
+    opacity:0.8;
+    transition:0.3;
+}
+
+#btn-3:hover {
+    opacity: 0.5;
+    transform:scale(1.05);
+    transition:0.3;
+}
+.third-div{
+    
+    width: 100vw;
+    height: 75vh;
+
+    background-image:url("./bbg5057641.jpg");
+    background-size:contain;
+    
+}
+   
+#no-4{
+        overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: 0.05em solid orange; /* imp The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        /* margin: 0 auto;Gives that scrolling effect as the typing happens */
+        color:white;
+        
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 2.5s steps(80, end),
+          blink-caret .1000s step-end infinite;
+        margin-left:400px;
+        padding-top:65px;
+        font-family:sans-serif;
+        font-weight:900;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { margin-top:-900px }
+        /* to { width: 45% } */
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(15, 15, 15); }
+      }
+
+
+.div-6{
+    height:400px;
+    width:400px;
+    padding-left:100px;
+    padding-top:50px;
+}
+#lvg{
+    height:100%;
+    weight:100%;
+    border-radius:25px;
+    transition: all 0.5s ease-in-out;
+}
+#lvg:hover{
+    opacity:12;
+    transform: scale(1.05);
+    
+}
+.div-5{
+    height:fit-content;
+    width:50%;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+#lvgin{
+    display:flex;
+    color:white;
+    font-weight:bold;
+    display: flex;
+    text-align:center;
+    margin-top:80px;
+    margin-right:39px;
+    font-size:30px; 
+    transition:200ms;   
+    transform-style:preserve-3d;
+}
+#pid{
+    color:#B8BDD1CC;
+    text-align: center;
+    padding-top:10px;
+    padding-right:50px;
+    font-size:20px;
+    gap:10px
+
+}
+#btn-lvg{
+        border: 20px solid #0B86FF;
+        background-color:#0B86FF;
+        color: white;
+        font-weight:bold;
+        font-size:22px;
+        width: fit-content;
+        font-family:'League Spartan', sans-serif;
+        text-align: center;
+        flex-grow: 0;
+        border-radius:8px;
+        background-color: #0B86FF;
+        margin:32px;
+        display:flex;
+        cursor: pointer;
+        opacity:0.8;
+        transition:0.3;
+}
+#btn-lvg:hover{
+        
+        transform:scale(1.05);
+        transition:0.3;
+}
+#fs{
+    display:flex;
+    height:350px;
+    weight:350px;
+    border-radius:25px;
+    transition:all 0.5s ease-in-out;
+    
+}
+#fs:hover{
+    opacity:12;
+    transform: scale(1.05);
+    
+}
+.div-9{
+    height:400px;
+    width:400px;
+    padding-left:750px;
+    margin-top:-350px;
+    
+}
+#otc{
+    color:white;
+    padding-left:1150px;
+    margin-top:-370px;
+    font-weight:bold;
+    font-size:30px;
+
+}
+#potc{
+    color:#B8BDD1CC;
+    margin-left:1150px;
+    font-size:20px;
+    margin-top:25px;
+}
+#btnf{
+    border: 20px solid #0B86FF;
+    background-color:#0B86FF;
+    color: white;
+    font-weight:bold;
+    font-size:22px;
+    width: fit-content;
+    font-family:'League Spartan', sans-serif;
+    text-align: center;
+    flex-grow: 0;
+    border-radius:8px;
+    background-color: #0B86FF;
+    margin:32px;
+    display:flex;
+    cursor: pointer;
+    opacity:0.8;
+    transition:0.3;
+}
+#btnf:hover{
+    opacity:0.5;
+    transform:scale(1.05);
+    transition:0.3;
+}
+.div-11{
+    width:100vw;
+    height:100vh;
+    /* background-size:contain; */
+    background-image:url("./solidwhite.jpg");
+    /* background-attachment:unset; */
+}
+#cp{
+     overflow: hidden; /* Ensures the content is not revealed until the animation */
+        border-right: 0.05em solid orange; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        /* margin: 0 auto;Gives that scrolling effect as the typing happens */
+        color:black;
+        
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 2.5s steps(80, end),
+          blink-caret .1000s step-end infinite;
+        margin-left:395px;
+        padding-top:65px;
+        font-size:40px;
+        font-family:sans-serif;
+        font-weight:900;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { margin-top:-900px }
+        to { width: 45% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: rgb(15, 15, 15); }
+      }
+#p-1{
+    margin:centre;
+    color: #636872;
+    font-size:24px;
+    font-family:sans-serif;
+    margin-right:px; 
+    text-align: center;
+    padding-top:15px;
+    
+} 
+
+
+
